@@ -30,6 +30,8 @@ An R (2022.7.1.554) environment is required, preferably with Tensorflow, Keras, 
 1. Install Conda. Preferably, a light install using Miniconda is preferred.
 2. Open RStudio.
 
+We also downloaded 100-dimensional fastText pre-trained word embeddings and 200-dimensional GloVe pre-trained word embeddings for our model. 
+
 ### R Packages Used
 
 - `tidyverse`
