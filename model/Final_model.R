@@ -14,8 +14,8 @@ library(caret)
 library(dplyr)
 library(tensorflow)
 
-train <- read.csv("/Users/m/Downloads/new_train.csv", stringsAsFactors=FALSE)
-test <- read.csv("/Users/m/Downloads/test.csv", stringsAsFactors=FALSE)
+train <- read.csv("new_train.csv", stringsAsFactors=FALSE)
+test <- read.csv("test.csv", stringsAsFactors=FALSE)
 
 train <- train %>% mutate(Split = "train")
 test <- test %>% mutate(Split = "test")
@@ -88,8 +88,8 @@ y_val <- train_labels[!trainid,]
 # Pre-Trained Word Embedding
 glove_twitter_embedding_dim <- 200
 fasttext_twitter_embedding_dim <- 100
-glove_twitter_weights <- readRDS("/Users/m/Downloads/Word Embedding Weights/glove_twitter_27B_200d.rds")
-fasttext_twitter_weights <- readRDS("/Users/m/Downloads/Word Embedding Weights/fasttext_english_twitter_100d.rds")
+glove_twitter_weights <- readRDS("glove_twitter_27B_200d.rds")
+fasttext_twitter_weights <- readRDS("fasttext_english_twitter_100d.rds")
 
 # Input layer
 input <- layer_input(
