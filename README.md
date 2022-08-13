@@ -4,7 +4,7 @@ Competition code for "The Analytics Edge" module in SUTD. Original dataset can b
 
 ### For code submission on eDimension
 
-We did not include the actual model that was produced by the code due to its size. You will need to download the whole folder and reference that folder's name when importing the model. There is no need to download this unless the exact predictions need to be reproduced.
+You will need to download the whole folder and reference that folder's name when importing the model. There is no need to download this unless the exact predictions need to be reproduced.
 
 ### Overview
 
