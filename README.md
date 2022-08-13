@@ -8,7 +8,7 @@ You will need to download the whole folder and reference that folder's name when
 
 ### Overview
 
-Our intial dataset consisted of 20610 Tweets gathered from Twitter. The task was to develop an algorithm that determines, with the highest accuracy, what sort of sentiment a given set of tweet references (eg. does the tweet have a negative, neutral or positive sentiment?). Essentially, the task was to determine the sentiments of tweets.
+Our intial dataset consisted of 20610 Tweets gathered from Twitter. The task was to develop an algorithm that determines, with the highest accuracy, the general sentiment of the tweets. Specifically, the challenge is to determine whether each tweet has a negative, neutral, or positive sentiment.
 
 
 ### Approach
