@@ -48,7 +48,7 @@ We also downloaded a 100-dimensional fastText pre-trained word embeddings and a 
 
 ### Results
 
-The model was able to predict the sentiments of the tweets with a training accuracy of around 87.79%, a validation accuracy of around 82.98%, and 87.384% in the Kaggle data competition’s public leaderboard. As mentioned above, due to the stochastic nature of the neural network, we can expect to see some slight differences in accuracy with each run of the script. 
+The model was able to predict the sentiments of the tweets with a training accuracy of around 98.89%, a validation accuracy of around 82.98%, and 87.384% in the Kaggle data competition’s public leaderboard. As mentioned above, due to the stochastic nature of the neural network, we can expect to see some slight differences in accuracy with each run of the script. 
 
 ### Interpretability and Limitations
 
