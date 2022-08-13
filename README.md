@@ -19,7 +19,7 @@ For our case, the pre-trained models selected were Facebook’s [fastText](https
 
 The model itself was fine-tuned to the task at hand by, firstly, passing the input data into the pre-trained model. The mean of its output was then passed through two fully-connected layers (32-dimensional each) with ReLU activation. The output layer of the model was three-dimensional with the Softmax activation. The dimension with the highest probability denotes the sentiment class. To compute loss, the categorical cross-entropy loss was used along with the Adam optimiser for the gradient-based optimisation. The model was run for 20 epochs, since the validation loss increased very slightly at around the 20th epoch, in general.
 
-While training the model, we noticed that our predicted accuracy is bounded by the limited 20610 tweets. Therefore, we went to gather more data from [Kaggle] (https://www.kaggle.com/competitions/tweet-sentiment-extraction) and augmented the data to our initial dataset. This brought up the size of our dataset to 51624 tweets.
+While training the model, we noticed that our predicted accuracy is bounded by the limited 20610 tweets. Therefore, we went to gather more data from [Kaggle](https://www.kaggle.com/competitions/tweet-sentiment-extraction) and augmented the data to our initial dataset. This brought up the size of our dataset to 51624 tweets.
 
 Due to the stochastic nature of the neural network model, the exact model, and hence, the resulting predictions will differ slightly with different runs. As such, the final model used is freezed and can be reloaded to produce the same predictions as the one submitted on Kaggle. 
 
@@ -30,7 +30,7 @@ An R (2022.7.1.554) environment is required, preferably with Tensorflow, Keras, 
 1. Install Conda. Preferably, a light install using Miniconda is preferred.
 2. Open RStudio.
 
-We also downloaded 100-dimensional fastText pre-trained word embeddings and 200-dimensional GloVe pre-trained word embeddings for our model. 
+We also downloaded a 100-dimensional fastText pre-trained word embeddings and a 200-dimensional GloVe pre-trained word embeddings for our model. 
 
 ### R Packages Used
 
