@@ -2,6 +2,8 @@
 
 Competition code for "The Analytics Edge" module in SUTD. Original dataset can be found from [Kaggle](https://www.kaggle.com/c/2022tae/leaderboard).
 
+We are from team 4 and we consist of Ng Tze Liang (1005452), Melodee Chia (1005551) and Chong Shuting (1005423).
+
 ### For code submission on eDimension
 
 You will need to download the whole folder and reference that folder's name when importing the model. There is no need to download this unless the exact predictions need to be reproduced.
